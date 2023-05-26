@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myheader/static/css/main.1f3e7c81.css",
+    "main.js": "/myheader/static/js/main.561191ef.js",
+    "static/js/787.84335d7b.chunk.js": "/myheader/static/js/787.84335d7b.chunk.js",
+    "static/media/logo.svg": "/myheader/static/media/logo.53e45a54c3b1157254f1c65c6e706f23.svg",
+    "static/media/AU.svg": "/myheader/static/media/AU.68a2d7a650a74cef64dc60c2a3691a77.svg",
+    "static/media/UK.svg": "/myheader/static/media/UK.6f008b596156eae4d2e84dd1e2076ac9.svg",
+    "static/media/US.svg": "/myheader/static/media/US.76960df0be7ff639a723de6fb95c2d52.svg",
+    "static/media/EU.svg": "/myheader/static/media/EU.369e29c5cd731f0447380c620d14746b.svg",
+    "index.html": "/myheader/index.html",
+    "static/media/CA.svg": "/myheader/static/media/CA.562591704465f7cc7155fc7708ef2f46.svg",
+    "static/media/closeMenu.svg": "/myheader/static/media/closeMenu.eb834dc5ab7e5c7c7905a58d751c1a1c.svg",
+    "static/media/burgerMenu.svg": "/myheader/static/media/burgerMenu.3cb72f1c61d685ab1a93fc07e6d06398.svg",
+    "static/media/Stroke 1.svg": "/myheader/static/media/Stroke 1.04623602548016537436700e6c67cc71.svg",
+    "main.1f3e7c81.css.map": "/myheader/static/css/main.1f3e7c81.css.map",
+    "main.561191ef.js.map": "/myheader/static/js/main.561191ef.js.map",
+    "787.84335d7b.chunk.js.map": "/myheader/static/js/787.84335d7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f3e7c81.css",
+    "static/js/main.561191ef.js"
+  ]
+}
