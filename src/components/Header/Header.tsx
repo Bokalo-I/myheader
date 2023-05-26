@@ -35,7 +35,7 @@ export const Header: React.FC<Props> = ({ currency, onCurrencyChange }) => {
           <img src={burgerMenu} alt="open menu" />
         </button>
         <nav className='nav'>
-          <a href="/#">
+          <a href="/">
             <img
               src={logo}
               alt="logo"
@@ -57,7 +57,7 @@ export const Header: React.FC<Props> = ({ currency, onCurrencyChange }) => {
         <div className='rightBlock'>
           <div className='containerblock'>
          <DropDown currency={currency} onCurrencyChange={onCurrencyChange} />
-          <a href="/#" className='signUp'>Sign Up</a>
+          <a href="/" className='signUp'>Sign Up</a>
           </div>
           <button className='logButton'>
             Log in
