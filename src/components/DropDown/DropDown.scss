@@ -1,0 +1,132 @@
+.currencyButtonClose {
+  all: unset;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+  display: flex;
+}
+
+.currencyButtonOpen {
+  all: unset;
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+  display: flex;
+}
+
+.currencyName {
+  color: #FFF;
+}
+
+.currencyContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  &::before {
+    content: "";
+      position: absolute;
+      height: 1px;
+      left: 0;
+      right: 0;
+      top: -10px;
+      background-color: #fff;
+      opacity: 20%;
+  }
+
+  @media (min-width: 1200px) {
+    position: static;
+    align-items: center;
+    width: 65px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.dropDownOpen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #142241;
+    box-shadow: 0px -1px 5px 2px rgba(49, 66, 75, 0.1);
+    border-radius: 4px;
+    transition: opacity 0.3s;
+
+    @media (min-width: 1200px) {
+      padding: 14px 0;
+      position: absolute;
+      top: 80px;
+      left: -8px;
+    }
+
+}
+
+.dropDownClose {
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: block;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+}
+
+.dropDownItem {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  color: #fff;
+  gap: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  &:hover {
+    cursor: pointer;
+    color: #EDC55A;
+    background: rgba(44, 62, 103, 0.2);
+  }
+
+  @media (min-width: 1200px) {
+    width: 110px;
+    padding: 8px;
+    padding-right: 45px;
+  }
+}
+
+.isActiveCurr {
+  position: relative;
+  color: #E9B109;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    left: -16px;
+    background-color: #E9B109;
+
+    @media (min-width: 1200px) {
+      display: none;
+    }
+  }
+
+
+  @media (min-width: 1200px) {
+    border-right: 2px solid #E9B109;
+    border-left: 0;
+  }
+}
+
+.currencyLogoName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.currencyLogo {
+  display: flex;
+  width: 16px;
+  height: 16px;
+}
